@@ -1,0 +1,22 @@
+<view class="main">
+    <view class="image">
+        <image class="topImage" src="{{urlList[title]}}" mode="aspectFill"></image>
+    </view>
+    <view class="title">
+        <view wx:for="{{titleList}}" wx:key="{{index}}" class="subTitle {{title===index ? 'activeTitle':''}}">{{item}}</view>
+    </view>
+    <view class="pro">
+        <view wx:for="{{titleList}}" wx:key="{{index}}" class="subPro {{title===index ? 'activePro':''}} {{index===1 ? 'midPro':''}}"></view>
+    </view>
+    <view class="analysises">
+        <view class="subAnalysis" wx:for="{{analysisList[title]}}" wx:key="{{index}}">
+           <text clsss="anaText">{{item}}：</text>
+           <view class="progress">
+                <progress border-radius="20px" stroke-width="8" percent="{{percent}}" activeColor="#4087f2" backgroundColor="#d5d5d5" font-size="14px" bindactiveend="showButton" active />         
+           </view>
+        </view>
+    </view>
+    <view class="button" wx:if="{{buttonFlag}}">
+        <view class="buttonText" bindtap="goDescription">分析完成，生成报告</view>
+    </view>
+</view>

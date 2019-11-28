@@ -1,0 +1,28 @@
+<view class="main">
+    <view class="image">
+        <image class="image1" src="../../images/description/description_1.png" mode="widthFix"></image>
+        <view class="imageContainer">
+            <image class="image2" src="{{ app.globalData.imgInfo.img0url }}" mode="aspectFill"></image>
+        </view>
+    </view>
+    <view class="medal">
+        <image class="image3" wx:if="{{ app.globalData.imgInfo.score >= 50 && app.globalData.imgInfo.score < 70 }}" src="../../images/poster/Cu.png" mode="widthFix"></image>
+        <image class="image3" wx:if="{{ app.globalData.imgInfo.score >= 70 && app.globalData.imgInfo.score < 90 }}" src="../../images/poster/Ag.png" mode="widthFix"></image>
+        <image class="image3" wx:if="{{ app.globalData.imgInfo.score >= 90 }}" src="../../images/poster/Au.png" mode="widthFix"></image>
+        <view class="score">{{app.globalData.imgInfo.score + '分'}}</view>
+    </view>
+    <view class="type">
+        {{app.globalData.descriptionInfo[0].description}}
+        <view class="topType">{{app.globalData.descriptionInfo[0].name}}</view>
+    </view>
+    <view class="type">
+        <view class="topType">渣男语录</view>
+        <view class="talk" wx:for="{{app.globalData.zhanan}}" wx:key="{{index}}">{{index+1 + '.'}}{{item.description}}</view>
+    </view>
+    <view class="type">
+        <view class="topType">妖精语录</view>
+        <view class="talk" wx:for="{{app.globalData.yaojing}}" wx:key="{{index}}">{{index+1 + '.'}}{{item.description}}</view>
+    </view>
+    <view class="haibao" bindtap="goPoster">生成海报</view>
+    <view class="list" bindtap="goReport">我的列表</view>
+</view>

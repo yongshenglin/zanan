@@ -1,0 +1,44 @@
+.main {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: radial-gradient(220px circle at 50% 395rpx, #205fb5, #103363, #010e28);
+}
+.image1 {
+  width: 100%;
+}
+.title {
+  color: #fff;
+  font-size: 40rpx;
+  text-align: center;
+  padding-bottom: 40rpx;
+}
+.button {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: none;
+}
+.buttonImg {
+  width: 355rpx;
+  height: 94rpx;
+}
+.buttonText {
+  position: absolute;
+  top: 5rpx;
+  color: #fff;
+  font-size: 32rpx;
+  height: 65rpx;
+  line-height: 65rpx;
+  border-bottom: 6rpx solid  #00ffff;
+}
+.bottomImg {
+  width: 100%;
+}
+.image2 {
+  width: 100%;
+  height: 90rpx;
+  display: block;
+}

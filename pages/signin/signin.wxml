@@ -1,0 +1,24 @@
+<view class="main">
+    <view class="topImage">
+        <image class="img" src="../../images/upload/upload_1.png" mode="widthFix"></image>
+        <view class="tips">请登录后开始测试</view>
+    </view>
+    <!-- <view style="width:100%;text-align:center;" hover-class="none" hover-stop-propagation="false" class="button">
+        <button open-type="getUserInfo" bindgetuserinfo="getUserInfo">     
+            <view class="buttonText">登录</view>
+        </button>
+        <button bindtap="prev">
+            <view class="buttonupper">退出</view>
+        </button>
+    </view> -->
+    <view style="width:100%;text-align:center;" hover-class="none" hover-stop-propagation="false">
+        <button open-type="getUserInfo" bindgetuserinfo="getUserInfo" class="button">
+            <image class="buttonImg" src="../../images/index/index_3.png" mode="widthFix"></image>            
+            <view class="buttonText">登录</view>
+        </button>
+        <button class="button" bindtap="prev">
+            <image class="buttonImg" src="../../images/index/index_3.png" mode="widthFix"></image>            
+            <view class="buttonText">退出</view>
+        </button>
+    </view>
+</view>

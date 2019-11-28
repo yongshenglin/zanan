@@ -1,0 +1,68 @@
+<view class="main">
+    <view class="title">报告列表</view>
+    <view class="avatar">
+        <image style="width: 100%;height: 100%;border-radius:100%;" src="{{app.globalData.userInfo.avatarUrl}}"></image>
+    </view>
+    <view class="userName">{{app.globalData.userInfo.nickName}}</view>
+    <view class="report">
+        <view class="topReport">
+            <view class="iconfont icon-aixin reportIcon"></view>            
+            <view class="myReport">我的报告列表</view>
+        </view>
+        <view style="height: 2rpx;border-bottom: 2rpx solid #e6e9ef;margin-top: 20rpx;"></view>
+        <view>
+            <view class="subReport" bindtap="goDes">
+                <view class="reportOne">
+                    <image class="subReportImg" src="{{app.globalData.userInfo.avatarUrl}}"></image>
+                    <text style="font-size: 28rpx;">的渣男报告</text>
+                </view>
+                <view class="iconfont icon-jiantou"></view>
+            </view>
+            <view class="hr"></view>
+        </view>
+    </view>
+    <view class="balance">
+        <view>
+            <text style="font-size:28rpx;">剩余报告次数：</text>
+            <text style="color: #4087f2">{{app.globalData.accountInfo.balance}}</text>
+        </view>
+        <view class="purchase" bindtap="purchase">补充次数</view>
+    </view>
+    <view class="gongzhonghao">
+        <image class="gongzhonghaoImg" src="../../images/report/report_1.png" mode="widthFix"></image>
+        <view>
+            <view class="gongzhonghaoText">AI鉴渣师</view>
+            <view class="gongzhonghaoText">关注公众号了解我们</view>
+        </view>
+        <view class="guanzhu" bindtap="follow">关注</view>
+    </view>
+    <view class="gongzhonghao">
+        <image class="gongzhonghaoImg" src="../../images/report/touxiang.png" mode="widthFix"></image>
+        <view>
+            <view class="qinggangzhuangjia">资深情感专家</view>
+            <view class="qinggangText">让你的幸福少走弯路</view>
+        </view>
+        <view class="guanzhu" bindtap="experience">体验</view>
+    </view>
+    <view class="ceyice">
+        <text bindtap="goIndex" class="ceyiceText">测一测<text class="iconfont icon-jiantou"></text></text>
+    </view>
+    <view class="weui-demo-dialog {{istrue ? 'weui-demo-dialog_show' : ''}}">
+        <view class="weui-mask" bindtap="closeDialog"></view>
+        <view class="weui-dialog__wrp" bindtap="closeDialog">
+            <view class="weui-dialog" catchtap="stopEvent">
+            <view class="weui-dialog__hd">
+                <view class="weui-dialog__title">关注公众号免费领次数</view>
+            </view>
+            <view class="weui-dialog__bd">
+                <!-- <image class="weui-article__img" src="../../images/report/gongzhonghao.jpg" mode="aspectFill" style="max-width:100%;"/> -->
+                请点击右上角按钮找到“关于AI鉴渣师”，关注我们的相关公众号
+            </view>
+            <view class="weui-dialog__ft">
+                <view class="weui-dialog__btn weui-dialog__btn_default" bindtap="closeDialog">取消</view>
+                <view class="weui-dialog__btn" bindtap="closeDialog">确定</view>
+            </view>
+            </view>
+        </view>
+    </view>
+</view>

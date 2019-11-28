@@ -1,0 +1,6 @@
+<canvas style="width: 100%;height:100%;" canvas-id="myCanvas" id="myCanvas">
+    <cover-view class="bottomContainer">
+        <cover-view class="button" bindtap="saveImg">保存图片</cover-view>
+        <cover-view class="button" bindtap="goReport">离开</cover-view>
+    </cover-view>
+</canvas>

@@ -1,0 +1,29 @@
+/* pages/poster/poster.wxss */
+/* .bottomView {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200rpx;
+    background-color: #666666;
+    opacity: 0.3;
+} */
+.bottomContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 200rpx;
+    background-color: rgba(96, 96, 96, 0.3);
+}
+.button {
+    margin: 0 25rpx;
+    width: 240rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+    color: #4087f2;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 50rpx;
+}

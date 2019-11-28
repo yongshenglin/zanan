@@ -1,0 +1,42 @@
+<view class="main" hover-class="none" hover-stop-propagation="false">
+    <view class="topImage" hover-class="none" hover-stop-propagation="false">
+        <image class="image1" src="{{ imgUrl }}" mode="aspectFill" lazy-load="false" binderror="" bindload=""></image>
+    </view>
+    <view style="margin-top: 68rpx;" hover-class="none" hover-stop-propagation="false">
+        <view class="tip" hover-class="none" hover-stop-propagation="false">
+            <view class="subTip" hover-class="none" hover-stop-propagation="false">
+                <image class="image_3" src="../../images/upload/upload_2.png"></image>
+                <view class="tipText" hover-class="none" hover-stop-propagation="false">单人/正面</view>
+            </view>
+            <view class="subTip" style="margin:0 30rpx" hover-class="none" hover-stop-propagation="false">
+                <image class="image_2" src="../../images/upload/upload_3.png"></image>
+                <view class="tipText" hover-class="none" hover-stop-propagation="false">面部呈现完整</view>
+            </view>
+            <view class="subTip" hover-class="none" hover-stop-propagation="false">
+                <image class="image_3" src="../../images/upload/upload_2.png"></image>
+                <view class="tipText" hover-class="none" hover-stop-propagation="false">无刘海遮挡</view>
+            </view>
+        </view>
+        <view class="tip" style="margin-top:48rpx;" hover-class="none" hover-stop-propagation="false">
+            <view class="subTip" hover-class="none" hover-stop-propagation="false">
+                <image class="image_3" src="../../images/upload/upload_4.png"></image>
+                <view class="tipText" hover-class="none" hover-stop-propagation="false">五官清晰</view>
+            </view>
+            <view class="subTip" style="margin-left:30rpx" hover-class="none" hover-stop-propagation="false">
+                <image class="image_3" src="../../images/upload/upload_4.png"></image>
+                <view class="tipText" hover-class="none" hover-stop-propagation="false">不带眼镜</view>
+            </view>
+        </view>
+    </view>
+    <view class="title" hover-class="none" hover-stop-propagation="false">
+        <text class="titleText" selectable="false" space="false" decode="false">
+            面相学|人工智能|人脸定位
+        </text>
+    </view>
+    <view style="width:100%;text-align:center;" hover-class="none" hover-stop-propagation="false">
+        <view class="button" bindtap="goAnalysis">
+            <image class="uploadImg" src="../../images/index/index_3.png"></image>
+            <view class="buttonText">点击开始分析</view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,20 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/report/report",
+    "pages/analysis/analysis",
+    "pages/signin/signin",
+    "pages/upload/upload",
+    "pages/confirm/conirm",
+    "pages/description/description",
+    "pages/consultation/consultation",
+    "pages/poster/poster"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "让AI帮你科学识别渣男",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

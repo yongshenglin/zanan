@@ -1,0 +1,91 @@
+.main {
+    height: 100%;
+}
+.image {
+    width: 100%;
+    margin-bottom: 50rpx;
+    text-align: center;
+}
+.topImage {
+    width: 100%;
+}
+.title {
+    width: 668rpx;
+    height: 68rpx;
+    margin: 0 auto;
+    margin-bottom: 22rpx;
+    border: 2rpx solid #e6e9ef;
+    border-radius: 10rpx;
+    padding: 4rpx 10rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+}
+.subTitle {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28rpx;
+    color: #303132;
+    flex:1;
+    border-radius: 6rpx;
+}
+.activeTitle {
+    background-color: #fff;
+    color: #4087f2;
+}
+.pro {
+    display: flex;
+    width: 692rpx;
+    height: 10rpx;
+    margin: 0 auto;
+    margin-bottom: 40rpx;
+}
+.subPro {
+    background-color: #f0f2f5;
+    flex:1;
+}
+.midPro {
+    margin: 0 3rpx;
+}
+.activePro {
+    background-color: #4087f2;
+}
+.analysises {
+    width: 588rpx;
+    height: 236rpx;
+    border: 2rpx solid #e6e9ef;
+    border-radius: 10rpx;
+    margin: 0 auto;
+    padding: 50rpx;
+}
+.subAnalysis {
+    color: #4087f2;
+    font-size: 28rpx;
+    display: flex;
+    margin-bottom: 20rpx;
+}
+.anaText {
+    flex:1;
+    margin-right: 10rpx;
+}
+.progress {
+    flex:1;
+    margin-top: 18rpx;
+}
+.button {
+    margin-top: 40rpx;
+    text-align: center;
+}
+.buttonText {
+    width: 502rpx;
+    height: 78rpx;
+    line-height: 78rpx;
+    border-radius: 10rpx;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #4087f2;
+}

@@ -1,0 +1,81 @@
+.main {
+  height: 100%;
+}
+
+.title {
+  margin-top: 48rpx;
+  font-size: 36rpx;
+  text-align: center;
+  margin-bottom: 24rpx;
+  color: #ec5e5d;
+}
+
+.coach {
+  margin-top: 48rpx;
+  font-size: 32rpx;
+  text-align: center;
+  margin-bottom: 24rpx;
+}
+
+.renwu {
+  text-align: center;
+  margin-top: 48rpx;
+  margin-bottom: 24rpx;
+}
+
+.consult {
+  margin-top: 48rpx;
+  text-align: center;
+  font-size: 32rpx;
+  margin-bottom: 24rpx;
+}
+
+.experience {
+  margin-top: 48rpx;
+  display: flex;
+  justify-content: center;
+}
+
+.price {
+  margin-left: 20rpx;
+}
+
+.tiyan {
+  font-size: 28rpx;
+}
+
+.tiyan text {
+  font-size: 32rpx;
+  color: #ed7172;
+}
+
+.jiage {
+  text-decoration: underline;
+}
+.mg-top{
+  margin-top:50rpx;
+}
+.tubiao {
+  display: inline-block;
+  width: 0rpx;
+  height: 0rpx;
+  border-top: 12rpx solid transparent;
+  border-bottom: 12rpx solid transparent;
+  border-right:20rpx solid #666;
+}
+.add{
+  display:inline-block;
+  color:#666;
+  font-size:28rpx;
+  margin-left:20rpx;
+}
+.fanghui{
+  margin-top:48rpx;
+  width:300rpx;
+  background:#11C488;
+  color:#fff;
+}
+.tapToAuthorize{
+  margin-top:50rpx;
+  width:200rpx;
+}

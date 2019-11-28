@@ -1,0 +1,23 @@
+<view class="main">
+  <view class="title"><text>{{text}}</text></view>
+  <view class="coach">在线一对一专业辅导</view>
+  <view class="renwu">
+    <image src="../../images/consultation/renwu.jpg"></image>
+  </view>
+  <view class="consult">专业两性情感咨询，让你的幸福少走弯路！</view>
+  <!-- <view class="experience">
+    <image style="width:200rpx;height:200rpx" src="../../images/consultation/qinggang.jpg" bindtouchstart='timestart' bindtouchend='timeend' bindtap='saveImg'></image>
+    <view class="price">
+      <view class="tiyan">
+        <text>限时</text>体验价格：<text class="jiage">99元</text>
+        <view>40分钟一对一指导</view>
+        <view class="mg-top">
+          <view class="tubiao"></view><view class="add"><text bindtap="baochun">点击这里</text>保存添加情感小秘书</view>
+        </view>
+      </view>
+    </view>
+  </view> -->
+  <view class="consult">请添加情感小秘书客服咨询：<text style="color:#f00">cnjony</text>
+  </view>
+  <!-- <button bindtap="tapToAuthorize" class="tapToAuthorize">我的</button> -->
+</view>

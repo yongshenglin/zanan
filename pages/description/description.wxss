@@ -1,0 +1,100 @@
+.main {
+    height: 100%;
+}
+.image {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    padding-top: 90rpx;
+    z-index: 10;
+}
+.image1 {
+    width: 265rpx;
+    height: 265rpx;
+    background-color: #fff;
+    border-radius: 100%;
+}
+.imageContainer {
+    position: absolute;
+    width: 180rpx;
+    height: 180rpx;
+}
+.image2 {
+    width: 180rpx;
+    height: 180rpx;
+    border-radius: 100%;
+}
+.medal {
+    position: relative;
+    text-align: center;
+    bottom: 80rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.score {
+    position: absolute;
+    bottom: 38rpx;
+    color: #1b4697;
+    font-size: 48rpx;
+}
+.image3 {
+    width: 161rpx;
+    height: 295rpx;
+}
+.haibao {
+    position: fixed;
+    right: 0;
+    top: 420rpx;
+    width: 144rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    border-top-left-radius: 36rpx;
+    border-bottom-left-radius: 36rpx;
+    background-color: #4087f2;
+    font-size: 28rpx;
+    color: #fff;
+    text-align: center;
+}
+.list {
+    position: fixed;
+    right: 0;
+    top: 520rpx;
+    width: 144rpx;
+    height: 70rpx;
+    line-height: 70rpx;
+    border-top-left-radius: 36rpx;
+    border-bottom-left-radius: 36rpx;
+    background-color: #bbbbbb;
+    font-size: 28rpx;
+    color: #fff;
+    text-align: center;
+}
+.type {
+    position: relative;
+    margin: 0 30rpx 0 30rpx;
+    border-radius: 10rpx;
+    border: 2rpx solid #4087f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120rpx;
+    padding: 60rpx 50rpx;
+    font-size: 30rpx;
+}
+.topType {
+    position: absolute;
+    width: 216rpx;
+    height: 68rpx;
+    text-align: center;
+    color: #fff;
+    background-color: #4087f2;
+    border-radius: 10rpx;
+    line-height: 68rpx;
+    top: -34rpx;
+}
+.talk {
+    width: 100%;
+    font-size: 30rpx;
+}

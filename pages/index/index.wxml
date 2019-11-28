@@ -1,0 +1,19 @@
+<view class="main">
+    <view class="topImage">
+        <image class="image1" src="../../images/index/index_5.png" mode="widthFix"></image>
+    </view>
+    <view class="title">让AI帮你科学识别渣男</view>
+    <view style="width:100%;text-align:center;background:#010e28;" hover-class="none" hover-stop-propagation="false">
+        <button class="button" bindtap="goSignin">
+            <image class="buttonImg" src="../../images/index/index_3.png" mode="widthFix"></image>            
+            <view class="buttonText">开始测试</view>
+        </button>
+        <button class="button" bindtap="goConsultation">
+            <image class="buttonImg" src="../../images/index/index_3.png" mode="widthFix"></image>            
+            <view class="buttonText">情感咨询</view>
+        </button>
+    </view>
+    <view class="bottomImg">
+        <image class="image2" src="../../images/index/index_6.png" mode="widthFix"></image>
+    </view>
+</view>
